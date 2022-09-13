@@ -3,3 +3,4 @@ lukso-l16-testnet/deposit_data.json
 lukso-l16-testnet/keystore
 lukso-l16-testnet/bin
 lukso-l16-testnet/node_recovery.json
+node_modules
