@@ -8,3 +8,8 @@ Lukso is a new identity network. Using this to collect all experiments with it. 
 * Install client (sudo curl https://install.l16.lukso.network | sudo bash)
 * Start (sudo lukso network init --chain l16)
 * Stop when needed (sudo lukso network stop)
+
+## Validator
+
+* sudo lukso network start
+* sudo lukso network validator start
