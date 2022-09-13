@@ -1,0 +1,51 @@
+chain:
+    name: l16
+    id: "2828"
+configs:
+    volume: ./configs
+keystore:
+    volume: ./keystore
+node:
+    ip: 108.20.204.128
+    name: a-mk-lukso-node
+execution:
+    statsaddress: 34.141.251.230
+    verbosity: "3"
+    etherbase: 0xCce25D1620bD5E33485B808B30D3c805eA28dBe3
+    datavolume: ./data/execution_data
+    bootnode: enode://c2bb19ce658cfdf1fecb45da599ee6c7bf36e5292efb3fb61303a0b2cd07f96c20ac9b376a464d687ac456675a2e4a44aec39a0509bcb4b6d8221eedec25aca2@34.141.198.207:30303
+    version: v0.2.1
+consensus:
+    statsaddress: 34.90.158.183:9090
+    verbosity: info
+    etherbase: ""
+    datavolume: ./data/consensus_data
+    bootnode: enr:-MK4QCZmodkDUcstage3qHGL7i8tw2M-Q7rIrGj2QPvgu-mcM-D04S6EMVUlRx1ka4fG3OimsiClL1SiBVPY_xE8L6iGAYGKhzXZh2F0dG5ldHOIAAAAAAAAAACEZXRoMpB9O39zYgAAcf__________gmlkgnY0gmlwhCJbKZaJc2VjcDI1NmsxoQJ7Q3DJ6iF1wxxRpaIeiYiTX4ppuibCSTU4dkGTZ6bbDYhzeW5jbmV0cwCDdGNwgjLIg3VkcIIu4A
+    version: v0.2.3-dev
+validator:
+    statsaddress: ""
+    verbosity: ""
+    etherbase: ""
+    datavolume: ./data/validator_data
+    bootnode: ""
+    version: ""
+validatorcredentials:
+    validatormnemonic: ""
+    withdrawalmnemonic: ""
+    validatorindexfrom: 0
+    validatorindexto: 0
+apiendpoints:
+    consensusapi: https://beacon.l16.lukso.network
+    executionapi: https://rpc.l16.lukso.network
+transactionwallet:
+    publickey: ""
+    privatekey: ""
+depositdetails:
+    amount: "220000000000"
+    contractaddress: "0x000000000000000000000000000000000000cafe"
+    depositfilelocation: ./deposit_data.json
+    forkversion: "0x60000069"
+ports:
+    geth:
+        httpport: "8545"
+        peerport: "30303"
