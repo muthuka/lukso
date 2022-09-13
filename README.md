@@ -6,10 +6,11 @@ Lukso is a new identity network. Using this to collect all experiments with it. 
 
 * Create a directory
 * Install client (sudo curl https://install.l16.lukso.network | sudo bash)
-* Start (sudo lukso network init --chain l16)
+* Init (sudo lukso network init --chain l16)
+* Start (sudo lukso network start)
 * Stop when needed (sudo lukso network stop)
 
 ## Validator
 
-* sudo lukso network start
-* sudo lukso network validator start
+* start (sudo lukso network validator start)
+* stop (sudo lukso network validator stop)
