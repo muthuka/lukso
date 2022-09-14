@@ -40,11 +40,17 @@ const erc725 = new ERC725(schemas, address, provider, config);
 var x = await erc725.getOwner();
 console.log("Owner: ", x);
 
+var x2 = await erc725.getOwner('0xa637D089a899A698eaaE4Fd66e434c51deeE8501');
+console.log("Owner2: ", x2);
+
 var y = await erc725.getData([
     'LSP3Profile',
     'SupportedStandards:LSP3UniversalProfile',
   ]);
 console.log("Data: ", y);
 
-var z = await erc725.fetchData('LSP3Profile');
-console.log("Fetched Data: ", z);
+var y2 = await erc725.getData();
+console.log("Data2: ", y2);
+
+// var z = await erc725.fetchData('LSP3Profile');
+// console.log("Fetched Data: ", z);
